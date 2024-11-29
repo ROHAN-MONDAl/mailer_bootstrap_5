@@ -12,12 +12,10 @@ body {
     background-color: rgba(255, 248, 220, 0.596);
 }
 
-.nav-item .dropdown:hover {
-    display: none;
-}
-
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
+.nav-item.dropdown {
+    &:hover .dropdown-menu {
+        display: block;
+    }
 }
 
 
