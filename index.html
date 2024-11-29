@@ -13,21 +13,90 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Custom Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header>
         <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <h1 class="mr-sm-5 mt-3"><a class="navbar-brand ms-5" href="#" style="font-size: 40px;"><i class="fa-solid fa-envelope"
+                        style="color: #ff007b;"></i>  Mailler</a></h1>
 
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body navbody">
+
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mt-lg-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+
+                            <li class="nav-item dropdown mx-2">
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            
+                            <li class="nav-item mx-3">
+                            <button type="button" class="btn btn-danger" href="#">Sign In</button>
+                        </li>
+
+                        <li class="nav-item mx-3 signup">
+                            <button type="button" class="btn btn-danger" href="#">Sign Up</button>
+                        </li>
+                        </ul>
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </nav>
 
 
     </header>
 
-
-
-
     <main>
+<article>
+    <section class="hero-section" id="home" style="background-image: url(images/hero-img-1.png);">
 
+    </section>
+</article>
 
     </main>
 
