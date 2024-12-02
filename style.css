@@ -18,6 +18,10 @@ body {
     }
 }
 
+.hero-section {
+    background-image: url("images/5820617.jpg");
+}
+
 
 
 @media screen and (max-width: 768px) {
